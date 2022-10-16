@@ -8,13 +8,12 @@ public class questao2 {
 
         int n1 = read.nextInt();
 
-        if(n1 > 0){
-            System.out.print(++n1 + ++n1);
-            System.out.print(--n1);
-        } else if(n1 <= 0){
-            System.out.print(--n1 - ++n1);
-            System.out.print(++n1);
-        }
+        int before = --n1;
+        int after = before + 2 ;
+
+
+        System.out.println(before +" , " +after);
+
 
         read.close();
 
