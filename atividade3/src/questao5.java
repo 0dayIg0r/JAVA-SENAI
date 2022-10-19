@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class questao4 {
+public class questao5 {
     public static void main(String[] args) throws Exception {
         Scanner read = new Scanner(System.in);
 
         System.out.println("DIGITE A IDADE");
         int age = read.nextInt();
       
-        if(age < 18){
-         System.out.println(age + "NAO PODE DIRIGIR");
-        } else if (age >= 18){
-         System.out.println("PODE DIRIGIR");
+        if(age >= 16){
+         System.out.println(age + "PODE VOTAR");
+        } else if (age < 16){
+         System.out.println("NÃO PODE VOTAR");
     
         }
     }
