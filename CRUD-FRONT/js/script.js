@@ -18,9 +18,9 @@ function listar() {
         i = 0
         for (const u of lista) {
             texto += `<tr onclick='editar(${i})'>
-            <td>${u.name}</td>
-            <td>${u.price}</td> 
-            <td>${u.description}</td>
+            <td class="text-center">${u.name}</td>
+            <td class="text-center">${u.price}</td> 
+            <td class="text-center">${u.description}</td>
             </tr>`
             i++
         }
